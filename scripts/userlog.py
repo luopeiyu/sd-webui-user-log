@@ -43,7 +43,7 @@ class Script(scripts.Script):
         args contains all values returned by components from ui()
         """
         timeStr = time.strftime('%Y-%m-%d %H:%M:%S',
-                                time.localtime(time.time() + 8*3600*1000)) 
+                                time.localtime(time.time() + 8*3600)) 
         model_name = self.get_model_name()
         ip = user_log_request_ip
         user = user_log_cookie_user
